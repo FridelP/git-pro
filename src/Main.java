@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        count("aprilis", "update");
-        cheer("Java","assholes");
+        count("aprilis");
+        cheer("Java");
         greet("Greetings","István");
     }
 
-    public static void count(String count, String count2) {
+    public static void count(String count) {
         System.out.println(count);
     }
 
@@ -13,7 +13,7 @@ public class Main {
         System.out.println(name+lastName);
     }
 
-    public static void cheer(String cheer,String param) {
-        System.out.println(cheer+param);
+    public static void cheer(String cheer) {
+        System.out.println("Cheer for: "+cheer);
     }
 }
