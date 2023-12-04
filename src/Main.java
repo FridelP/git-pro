@@ -1,11 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        count();
+        greet();
     }
 
-    public static void count() {
+    public static void count(String count) {
         System.out.println("Hello! I'm Kristóf Fenyő.");
-        greet();
     }
 
     public static void greet() {
