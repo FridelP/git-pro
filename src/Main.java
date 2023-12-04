@@ -3,7 +3,7 @@ public class Main {
 
         count("aprilis");
         cheer("Java");
-        greet("Greetings","István");
+        greet("Greetings");
 
     }
 
