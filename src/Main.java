@@ -4,6 +4,7 @@ public class Main {
         count("május");
         cheer("Phyton");
         greet("Greetings");
+        haveFun("overwatch2");
     }
     public static void haveFun(String fun) {
         System.out.println(fun);
