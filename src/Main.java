@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        count("aprilis");
+        count("junius");
         cheer("Java");
         greet("Greetings");
 
