@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        count();
+
+        greet("Fridel István");
     }
 
     public static void count() {
         System.out.println("Hello! I'm Kristóf Fenyő.");
-        greet();
     }
 
-    public static void greet() {
-        System.out.println("Fridel István");
+    public static void greet(String name) {
+        System.out.println(name);
     }
 
     public static void cheer(){
