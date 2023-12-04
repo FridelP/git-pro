@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-
+        cheer("Git master Class");
         greet("Fridel István");
     }
 
@@ -12,7 +12,7 @@ public class Main {
         System.out.println(name);
     }
 
-    public static void cheer(){
-        System.out.println("Git Masterclass");
+    public static void cheer(String cheer){
+        System.out.println(cheer);
     }
 }
