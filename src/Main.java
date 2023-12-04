@@ -2,7 +2,9 @@ public class Main {
     public static void main(String[] args) {
 
         count("május");
+
         cheer("Phyton");
+
         greet("Greetings");
 
     }
@@ -17,7 +19,7 @@ public class Main {
 
     public static void cheer(String cheer) {
 
-        System.out.println("Cheer for: "+cheer);
+        System.out.println("Cheer for: " + cheer);
 
     }
 }
