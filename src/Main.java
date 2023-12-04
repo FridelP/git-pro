@@ -10,7 +10,7 @@ public class Main {
     }
 
     public static void greet(String name) {
-        System.out.println(name);
+        System.out.println("Greetings for the" + name);
     }
 
     public static void cheer(String cheer) {
