@@ -14,6 +14,6 @@ public class Main {
     }
 
     public static void cheer(String cheer) {
-        System.out.println(cheer);
+        System.out.println("Cheer for: "+cheer);
     }
 }
