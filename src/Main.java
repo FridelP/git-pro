@@ -2,11 +2,11 @@ public class Main {
     public static void main(String[] args) {
 
         count("május");
-
         cheer("Phyton");
-
         greet("Greetings");
-
+    }
+    public static void haveFun(String fun) {
+        System.out.println(fun);
     }
 
     public static void count(String count) {
