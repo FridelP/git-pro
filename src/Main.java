@@ -1,11 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        count("aprilis", "update");
+
+        count("aprilis");
         cheer("Java");
-        greet("Greetings");
+        greet("Greetings","István");
+
     }
 
-    public static void count(String count, String count2) {
+    public static void count(String count) {
         System.out.println(count);
     }
 
@@ -14,6 +16,8 @@ public class Main {
     }
 
     public static void cheer(String cheer) {
-        System.out.println(cheer);
+
+        System.out.println("Cheer for: "+cheer);
+
     }
 }
