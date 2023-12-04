@@ -1,18 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-
+        count("aprilis");
+        cheer("Java");
         greet("Fridel István");
     }
 
     public static void count(String count) {
-        System.out.println("Hello! I'm Kristóf Fenyő.");
+        System.out.println(count);
     }
 
     public static void greet(String name) {
         System.out.println(name);
     }
 
-    public static void cheer(){
-        System.out.println("Git Masterclass");
+    public static void cheer(String cheer){
+        System.out.println(cheer);
     }
 }
